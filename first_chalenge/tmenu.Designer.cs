@@ -46,6 +46,7 @@
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // cadastroToolStripMenuItem
             // 
@@ -58,7 +59,7 @@
             // usuárioSenhaToolStripMenuItem
             // 
             this.usuárioSenhaToolStripMenuItem.Name = "usuárioSenhaToolStripMenuItem";
-            this.usuárioSenhaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.usuárioSenhaToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.usuárioSenhaToolStripMenuItem.Text = "Usuário/Senha";
             this.usuárioSenhaToolStripMenuItem.Click += new System.EventHandler(this.usuárioSenhaToolStripMenuItem_Click);
             // 

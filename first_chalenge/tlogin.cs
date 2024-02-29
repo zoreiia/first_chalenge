@@ -44,6 +44,7 @@ namespace first_chalenge
                 if (resultado.Read())
                 {
                     variaveis.usuario = "Usuário: " + resultado.GetString("usuario") + " | Nível: " + resultado.GetString("nivel");
+                    variaveis.nivel = resultado.GetString("nivel");
                     MessageBox.Show("Usuário e Senha corretos!");
                     this.Hide();
                     Form telalogin = new tmenu();

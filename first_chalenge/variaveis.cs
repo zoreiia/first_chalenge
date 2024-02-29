@@ -9,5 +9,6 @@ namespace first_chalenge
     internal class variaveis
     {
         public static string usuario;
+        public static string nivel;
     }
 }
